@@ -14,7 +14,7 @@ const TodoList: React.FC<TodoListProps> = ({ tasks =[] }) => {
         <table className="table">
             {/* head */}
             <thead>
-            <tr>
+            <tr className="bg-zinc-200">
                 <th>Tasks</th>
                 <th>Actions</th>
             </tr>
